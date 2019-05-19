@@ -3,7 +3,7 @@
 }
 
 .floating-content {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   margin-top: 2%;
   background-image: url("../images/dark_wood.png");
@@ -25,4 +25,17 @@ body {
 .logoImage {
   width: 25px;
   margin: 0 8px;
+}
+
+.table-content {
+  // margin: auto;
+  max-width: 400px;
+}
+
+.tblr {
+  text-align: right;
+}
+.tbll {
+  text-align: left;
+  max-width: 200px;
 }

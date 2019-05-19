@@ -30,3 +30,9 @@ a:hover {
 a:active {
   color: gray;
 }
+
+table.table-content tr td {
+  font-family: "Quicksand", sans-serif;
+  color: #ffffff;
+  border-bottom: 25px solid transparent;
+}
