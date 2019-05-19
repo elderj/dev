@@ -1,7 +1,7 @@
 {
   "name": "elderj",
   "version": "0.1.0",
-  "homepage": "https://elderj.github.io/x",
+  "homepage": "https://elderj.github.io/dev",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",
