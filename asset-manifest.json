@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dev/static/css/main.05d5c309.chunk.css",
-    "main.js": "/dev/static/js/main.34f50d0b.chunk.js",
-    "main.js.map": "/dev/static/js/main.34f50d0b.chunk.js.map",
+    "main.css": "/dev/static/css/main.9a469656.chunk.css",
+    "main.js": "/dev/static/js/main.7d31d9bb.chunk.js",
+    "main.js.map": "/dev/static/js/main.7d31d9bb.chunk.js.map",
     "runtime~main.js": "/dev/static/js/runtime~main.c0cef5d3.js",
     "runtime~main.js.map": "/dev/static/js/runtime~main.c0cef5d3.js.map",
-    "static/js/2.7ad91dd1.chunk.js": "/dev/static/js/2.7ad91dd1.chunk.js",
-    "static/js/2.7ad91dd1.chunk.js.map": "/dev/static/js/2.7ad91dd1.chunk.js.map",
+    "static/js/2.27a811e4.chunk.js": "/dev/static/js/2.27a811e4.chunk.js",
+    "static/js/2.27a811e4.chunk.js.map": "/dev/static/js/2.27a811e4.chunk.js.map",
     "index.html": "/dev/index.html",
-    "precache-manifest.b1f20ffab0a85e7751d3581743507e39.js": "/dev/precache-manifest.b1f20ffab0a85e7751d3581743507e39.js",
+    "precache-manifest.7ff1c0681a1f17de99ebdc33b6abcec8.js": "/dev/precache-manifest.7ff1c0681a1f17de99ebdc33b6abcec8.js",
     "service-worker.js": "/dev/service-worker.js",
-    "static/css/main.05d5c309.chunk.css.map": "/dev/static/css/main.05d5c309.chunk.css.map",
+    "static/css/main.9a469656.chunk.css.map": "/dev/static/css/main.9a469656.chunk.css.map",
     "static/media/App.scss": "/dev/static/media/dark_wood.d35f4a25.png"
   }
 }
