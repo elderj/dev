@@ -1,0 +1,32 @@
+/* Font Styling */
+.quicksand-text {
+  font-family: "Quicksand", sans-serif;
+}
+.pacifico-text {
+  font-family: "Pacifico", cursive;
+}
+
+p,
+h1 {
+  color: #ffffff;
+}
+
+/* unvisited link */
+a:link {
+  color: gray;
+}
+
+/* visited link */
+a:visited {
+  color: gray;
+}
+
+/* mouse over link */
+a:hover {
+  color: #f35626;
+}
+
+/* selected link */
+a:active {
+  color: gray;
+}

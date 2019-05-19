@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.floating-content {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2%;
+  background-image: url("../images/dark_wood.png");
+  background-repeat: repeat;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.blurb {
+  padding: 0% 25%;
+}
+
+body {
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url("../images/swirl_pattern.png");
+  background-repeat: repeat;
+}
+
+.logoImage {
+  width: 25px;
+  margin: 0 8px;
+}
