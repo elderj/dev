@@ -1,0 +1,8 @@
+.jumbotron {
+  /* Offsets the content from the nav bar */
+  margin-top: 20px;
+  /* background-image: url("../imgs/background.jpg"); */
+  background-size: cover;
+  color: rgb(46, 46, 46);
+  min-height: 600px;
+}

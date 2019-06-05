@@ -12,8 +12,7 @@ const Contact = () => (
     <h1 className="pacifico-text">jelder</h1>
     <NavBar />
     <p className="quicksand-text blurb">
-      I would be excited to work with you to create a web site or application
-      for you or your business.
+      Have some questions or want me to build you an awesome website?
       <br />
       <br />
       <a
