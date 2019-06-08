@@ -1,16 +1,17 @@
 .niceLookingList {
   width: 500px;
   margin: 0 auto;
+  text-align: left;
 }
 
 ul {
-  list-style-type: none;
   margin: 0;
-  padding: 0;
 }
 
-li {
-  border-bottom: 1px solid #ccc;
+ul li {
+  /* Bullet color */
+  color: red;
+  list-style-type: disc;
 }
 
 li:last-child {

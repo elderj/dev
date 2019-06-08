@@ -3,12 +3,13 @@ import "../styles/App.scss";
 import "../styles/font.css";
 
 import { Link } from "react-router-dom";
+import Header from "./Header";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
 const Home = () => (
   <div className="floating-content">
-    <h1 className="pacifico-text">jelder</h1>
+    <Header />
     <NavBar />
     <br />
     <p className="quicksand-text blurb">

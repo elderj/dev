@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/App.scss";
 import "../styles/font.css";
 
+import Header from "./Header";
 import NavBar from "./NavBar";
 
 import GitHubLogo from "../images/logoImages/GitHub-Mark-Light-120px-plus.png";
@@ -9,7 +10,7 @@ import LinkedInLogo from "../images/logoImages/In-White-72.png";
 
 const Contact = () => (
   <div className="floating-content">
-    <h1 className="pacifico-text">jelder</h1>
+    <Header />
     <NavBar />
     <p className="quicksand-text blurb">
       Have some questions or want me to build you an awesome website?
