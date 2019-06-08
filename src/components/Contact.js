@@ -5,16 +5,17 @@ import "../styles/font.css";
 import Header from "./Header";
 import NavBar from "./NavBar";
 
-import GitHubLogo from "../images/logoImages/GitHub-Mark-Light-120px-plus.png";
-import LinkedInLogo from "../images/logoImages/In-White-72.png";
+import GitHubLogo from "../images/linkLogoImages/GitHub-Mark-Light-120px-plus.png";
+import LinkedInLogo from "../images/linkLogoImages/In-White-72.png";
 
 const Contact = () => (
   <div className="floating-content">
     <Header />
     <NavBar />
     <p className="quicksand-text blurb">
-      Have some questions or want me to build you an awesome website?
+      Want me to build you an awesome website?
       <br />
+      Have some questions? <br />
       <br />
       <a
         href="mailto:jelde010@gmail.com?Subject=In Need of a Website"
@@ -30,10 +31,10 @@ const Contact = () => (
     <br />
     <br />
     <a href="https://github.com/elderj">
-      <img className="logoImage" alt="Github logo" src={GitHubLogo} />
+      <img className="linkLogoImage" alt="Github logo" src={GitHubLogo} />
     </a>
     <a href="https://www.linkedin.com/in/elderj/">
-      <img className="logoImage" alt="LinkedIn logo" src={LinkedInLogo} />
+      <img className="linkLogoImage" alt="LinkedIn logo" src={LinkedInLogo} />
     </a>
     <br />
     <br />

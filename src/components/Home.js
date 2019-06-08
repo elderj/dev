@@ -11,7 +11,6 @@ const Home = () => (
   <div className="floating-content">
     <Header />
     <NavBar />
-    <br />
     <p className="quicksand-text blurb">
       I'm a software developer who is passionate about making really cool
       things, both digitally and in the real world.
@@ -21,7 +20,6 @@ const Home = () => (
       <br />
       <Link to="/contact">Contact me</Link> to make something for you.
       <br />
-      {/* Read more <Link to="/about">about me</Link>. */}
     </p>
     <br />
     <br />
