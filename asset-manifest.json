@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dev/static/css/main.c4780fa3.chunk.css",
-    "main.js": "/dev/static/js/main.20f5877e.chunk.js",
-    "main.js.map": "/dev/static/js/main.20f5877e.chunk.js.map",
-    "runtime~main.js": "/dev/static/js/runtime~main.c0cef5d3.js",
-    "runtime~main.js.map": "/dev/static/js/runtime~main.c0cef5d3.js.map",
-    "static/js/2.fcc5e21f.chunk.js": "/dev/static/js/2.fcc5e21f.chunk.js",
-    "static/js/2.fcc5e21f.chunk.js.map": "/dev/static/js/2.fcc5e21f.chunk.js.map",
-    "index.html": "/dev/index.html",
-    "precache-manifest.0852ab94005bbce6ce31549ea0b1833d.js": "/dev/precache-manifest.0852ab94005bbce6ce31549ea0b1833d.js",
-    "service-worker.js": "/dev/service-worker.js",
-    "static/css/main.c4780fa3.chunk.css.map": "/dev/static/css/main.c4780fa3.chunk.css.map",
-    "static/media/App.scss": "/dev/static/media/dark_wood.d35f4a25.png",
-    "static/media/logo.png": "/dev/static/media/logo.188cd092.png"
+    "main.css": "elderj.com/static/css/main.eb895933.chunk.css",
+    "main.js": "elderj.com/static/js/main.70314a62.chunk.js",
+    "main.js.map": "elderj.com/static/js/main.70314a62.chunk.js.map",
+    "runtime~main.js": "elderj.com/static/js/runtime~main.923612e2.js",
+    "runtime~main.js.map": "elderj.com/static/js/runtime~main.923612e2.js.map",
+    "static/js/2.fcc5e21f.chunk.js": "elderj.com/static/js/2.fcc5e21f.chunk.js",
+    "static/js/2.fcc5e21f.chunk.js.map": "elderj.com/static/js/2.fcc5e21f.chunk.js.map",
+    "index.html": "elderj.com/index.html",
+    "precache-manifest.6708526ba90cd8375da40a7b338def2d.js": "elderj.com/precache-manifest.6708526ba90cd8375da40a7b338def2d.js",
+    "service-worker.js": "elderj.com/service-worker.js",
+    "static/css/main.eb895933.chunk.css.map": "elderj.com/static/css/main.eb895933.chunk.css.map",
+    "static/media/App.scss": "elderj.com/static/media/dark_wood.d35f4a25.png",
+    "static/media/logo.png": "elderj.com/static/media/logo.188cd092.png"
   }
 }
