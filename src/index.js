@@ -2,13 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles/index.css";
 import App from "./components/App";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <App />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );
 
