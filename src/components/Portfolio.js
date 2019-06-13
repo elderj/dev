@@ -13,13 +13,13 @@ const Portfolio = () => (
     <NavBar />
     <div className="niceLookingList">
       <ul>
-        <li>
+        <li className="portfolioListItem">
           <div className="tooltip">
             <a href="https://elderj.github.io/Kings/">Kings Drinking Game</a>
             <span className="tooltiptext">The classic drinking game</span>
           </div>
         </li>
-        <li>
+        <li className="portfolioListItem">
           <div className="tooltip">
             <a href="https://elderj.github.io/PalmettoDominion/">
               Palmetto Dominion Hot Sauce
@@ -30,7 +30,7 @@ const Portfolio = () => (
             </span>
           </div>
         </li>
-        <li>
+        <li className="portfolioListItem">
           <div className="tooltip">
             <a href="http://htmlpreview.github.com/?https://github.com/elderj/dev/blob/master/src/basic/index.html">
               Responsive Website Example
@@ -40,7 +40,7 @@ const Portfolio = () => (
             </span>
           </div>
         </li>
-        <li>
+        <li className="portfolioListItem">
           <div className="tooltip">
             <a href="https://jmonman.github.io/HealthTrack/">Health Snapshot</a>
             <span className="tooltiptext">

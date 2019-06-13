@@ -3,6 +3,7 @@ import Home from "./Home";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import Questions from "./Questions";
 
 import { Switch, Route } from "react-router-dom";
 
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/questions" component={Questions} />
       </Switch>
     </div>
   );

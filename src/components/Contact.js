@@ -4,9 +4,9 @@ import "../styles/font.css";
 
 import Header from "./Header";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 
-import GitHubLogo from "../images/linkLogoImages/GitHub-Mark-Light-120px-plus.png";
-import LinkedInLogo from "../images/linkLogoImages/In-White-72.png";
+import { Link } from "react-router-dom";
 
 const Contact = () => (
   <div className="floating-content">
@@ -15,7 +15,7 @@ const Contact = () => (
     <p className="quicksand-text blurb">
       Want me to build you an awesome website?
       <br />
-      Have some questions? <br />
+      Have some <Link to="/questions">questions</Link>? <br />
       <br />
       <a
         href="mailto:jelde010@gmail.com?Subject=In Need of a Website"
@@ -30,12 +30,7 @@ const Contact = () => (
 
     <br />
     <br />
-    <a href="https://github.com/elderj">
-      <img className="linkLogoImage" alt="Github logo" src={GitHubLogo} />
-    </a>
-    <a href="https://www.linkedin.com/in/elderj/">
-      <img className="linkLogoImage" alt="LinkedIn logo" src={LinkedInLogo} />
-    </a>
+    <Footer />
     <br />
     <br />
   </div>
