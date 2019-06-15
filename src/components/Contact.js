@@ -17,6 +17,10 @@ const Contact = () => (
       <br />
       Have some <Link to="/questions">questions</Link>? <br />
       <br />
+      <ul>
+        <li>jelde010@gmail.com</li>
+        <li>(843)-888-3211</li>
+      </ul>
       <a
         href="mailto:jelde010@gmail.com?Subject=In Need of a Website"
         target="_top"
