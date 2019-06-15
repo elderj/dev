@@ -17,7 +17,9 @@ const Home = () => (
     </h3>
 
     <p className="quicksand-text blurb">
-      Read a little <Link to="/about">about me</Link> and check <br /> out my{" "}
+      I have been doing web development for about 10 years and I enjoy all
+      things software development related. Read a little{" "}
+      <Link to="/about">about me</Link> and check <br /> out my{" "}
       <Link to="/portfolio">portfolio</Link> of web projects.
       <br />
       <br />

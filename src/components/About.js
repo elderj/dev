@@ -12,12 +12,10 @@ const About = () => (
     <NavBar />
     <p className="quicksand-text blurb">
       <br />
-      I'm a software developer who is passionate about making really cool
-      things, both digitally and in the real world.
+      I am passionate about making really cool things, both digitally and in the
+      real world.
       <br />
-      <br />I have been doing web development for about 10 years and I enjoy all
-      things software development and have many interesting hobbies outside of
-      my profession including
+      <br />I have many interesting hobbies outside of my profession including
       <ul>
         <li>Cars</li>
         <li>Motorcycles</li>
