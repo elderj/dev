@@ -17,17 +17,15 @@ const Home = () => (
     </h3>
 
     <p className="quicksand-text blurb">
-      I have been doing web development for about 10 years and I enjoy all
-      things software development related. Read a little{" "}
-      <Link to="/about">about me</Link> and check <br /> out my{" "}
+      I have been doing web development for roughly 10 years. Read a little more{" "}
+      <Link to="/about">about me</Link> or check out my{" "}
       <Link to="/portfolio">portfolio</Link> of web projects.
       <br />
+      <br />I specialize in custom web and application development and design
+      consulting. If you're interested in having a custom website made,{" "}
+      <Link to="/contact">contact me</Link> and we can get started.
       <br />
-      If you're interested, <Link to="/contact">Contact me</Link>
-      <br /> to make a website for you.
       <br />
-      <br />
-      Thanks for checking out my website!
     </p>
     <br />
     <br />

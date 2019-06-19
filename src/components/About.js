@@ -6,6 +6,8 @@ import Header from "./Header";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
+import palmetto from "../images/sc.png";
+
 const About = () => (
   <div className="floating-content">
     <Header />
@@ -15,16 +17,19 @@ const About = () => (
       I am passionate about making really cool things, both digitally and in the
       real world.
       <br />
-      <br />I have many interesting hobbies outside of my profession including
+      <br />I have a ton of hobbies outside of my profession including{" "}
+      <i>(but not limited to)</i>
       <ul>
-        <li>Cars</li>
-        <li>Motorcycles</li>
-        <li>Bikes</li>
-        <li>Beer</li>
-        <li>DIY</li>
-        <li>Music</li>
+        <li>Cars 🏎</li>
+        <li>Motorcycles 🏍</li>
+        <li>Running 👟</li>
+        <li>Bikes 🚲</li>
+        <li>Beer 🍺</li>
+        <li>DIY 🛠️</li>
+        <li>Music 🎸</li>
       </ul>
-      <br /> Currently located in Charleston South Carolina
+      <br /> Currently located in Charleston South Carolina{" "}
+      <img className="linkLogoImage" alt="South Carolina" src={palmetto} />
       <br />
     </p>
     <br />
