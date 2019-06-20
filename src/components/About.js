@@ -24,15 +24,14 @@ const About = () => (
       <ul>
         <li>Cars & Motorcycles</li>
         <li>Bicycles</li>
-        <li>Running and Lifting</li>
-        <li>Beer and Brewing</li>
+        <li>Running & Lifting</li>
+        <li>Beer & Brewing</li>
         <li>DIY</li>
         <li>Music</li>
       </ul>
       <br />
     </p>
-    <br />
-    <br />
+
     <Footer />
     <br />
     <br />
