@@ -16,7 +16,6 @@ const Contact = () => (
       Want me to build you an awesome website?
       <br />
       Have some <Link to="/questions">questions</Link>? <br />
-      <br />
       <ul>
         <li>jelde010@gmail.com</li>
         <li>(843)-888-3211</li>

@@ -21,7 +21,7 @@ const Home = () => (
       <Link to="/about">about me</Link> or check out my{" "}
       <Link to="/portfolio">portfolio</Link> of web projects.
       <br />
-      <br />I specialize in custom web and application development and design
+      <br />I specialize in custom web/application development and design
       consulting. If you're interested in having a custom website made,{" "}
       <Link to="/contact">contact me</Link> and we can get started.
       <br />
