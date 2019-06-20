@@ -15,7 +15,7 @@ const Contact = () => (
     <p className="quicksand-text blurb">
       Want me to build you an awesome website?
       <br />
-      Have some <Link to="/questions">questions</Link>? <br />
+      Have some questions? <br />
       <ul>
         <li>jelde010@gmail.com</li>
         <li>(843)-888-3211</li>
