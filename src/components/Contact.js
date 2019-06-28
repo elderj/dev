@@ -17,11 +17,11 @@ const Contact = () => (
       <br />
       Have some questions? <br />
       <ul>
-        <li>jelde010@gmail.com</li>
+        <li>elderdevelopmentcompany@gmail.com</li>
         <li>(843)-888-3211</li>
       </ul>
       <a
-        href="mailto:jelde010@gmail.com?Subject=In Need of a Website"
+        href="mailto:elderdevelopmentcompany@gmail.com?Subject=In Need of a Website"
         target="_top"
       >
         Send me an email
