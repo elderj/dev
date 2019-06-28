@@ -6,20 +6,13 @@ import Header from "./Header";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
-import { Link } from "react-router-dom";
-
 const Contact = () => (
   <div className="floating-content">
     <Header />
     <NavBar />
     <p className="quicksand-text blurb">
-      Want me to build you an awesome website?
-      <br />
-      Have some questions? <br />
-      <ul>
-        <li>elderdevelopmentcompany@gmail.com</li>
-        <li>(843)-888-3211</li>
-      </ul>
+      <h4>Have some questions?</h4>
+      <h4>Want me to build you an awesome website?</h4>
       <a
         href="mailto:elderdevelopmentcompany@gmail.com?Subject=In Need of a Website"
         target="_top"
@@ -28,6 +21,12 @@ const Contact = () => (
       </a>{" "}
       with some details or contact info and we can get started.
       <br />
+      <h5>
+        ElderDevelopmentCompany@gmail.com
+        <br />
+        <br />
+        (843)-888-3211
+      </h5>
     </p>
     <br />
 
