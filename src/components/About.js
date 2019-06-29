@@ -21,14 +21,12 @@ const About = () => (
       <img className="linkLogoImage" alt="South Carolina" src={palmetto} />
       <br />
       <br />I have a ton of hobbies outside of my profession including:
-      <ul>
-        <li>Cars & Motorcycles</li>
-        <li>Bicycles</li>
-        <li>Running & Lifting</li>
-        <li>Beer & Brewing</li>
-        <li>DIY</li>
-        <li>Music</li>
-      </ul>
+      <h5>Cars & Motorcycles</h5>
+      <h5>Bicycles</h5>
+      <h5>Running & Lifting</h5>
+      <h5>Beer & Brewing</h5>
+      <h5>DIY</h5>
+      <h5>Music</h5>
       <br />
     </p>
 
