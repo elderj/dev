@@ -12,7 +12,9 @@ const Contact = () => (
     <NavBar />
     <p className="quicksand-text blurb">
       <h4>Have some questions?</h4>
+      <br />
       <h4>Want me to build you an awesome website?</h4>
+      <br />
       <a
         href="mailto:elderdevelopmentcompany@gmail.com?Subject=In Need of a Website"
         target="_top"

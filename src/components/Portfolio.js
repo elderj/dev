@@ -11,6 +11,7 @@ const Portfolio = () => (
   <div className="floating-content">
     <Header />
     <NavBar />
+    <h4 className="quicksand-text">Web Projects</h4>
     <div className="niceLookingList">
       <ul>
         <li className="portfolioListItem">
@@ -46,6 +47,27 @@ const Portfolio = () => (
             <span className="tooltiptext">
               A Webapp which me and my brother worked on for his final project.
             </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <p className="quicksand-text blurb">
+      <h4>Fitbit Clock Faces</h4>
+    </p>
+    <div className="niceLookingList">
+      <ul>
+        <li className="portfolioListItem">
+          <div className="tooltip">
+            <a href="https://gallery.fitbit.com/details/a25c671b-a8c9-4391-9d1e-e5bd9f34323c">
+              Fancy Modern Digital
+            </a>
+          </div>
+        </li>
+        <li className="portfolioListItem">
+          <div className="tooltip">
+            <a href="https://gallery.fitbit.com/details/50e113f9-4922-4292-ad4c-1a19874e59a1">
+              Digital American Flag
+            </a>
           </div>
         </li>
       </ul>
