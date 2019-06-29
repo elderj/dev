@@ -21,20 +21,13 @@ const Contact = () => (
       </a>{" "}
       with some details or contact info and we can get started.
       <br />
-      <h5>
-        ElderDevelopmentCompany@gmail.com
-        <br />
-        <br />
-        (843)-888-3211
-      </h5>
+      <br />
+      <h5>ElderDevelopmentCompany@gmail.com</h5>
+      <h5>(843)-888-3211</h5>
     </p>
-    <br />
 
     <br />
-    <br />
     <Footer />
-    <br />
-    <br />
   </div>
 );
 

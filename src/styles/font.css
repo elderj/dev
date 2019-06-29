@@ -11,6 +11,15 @@ h1 {
   color: #ffffff;
 }
 
+h5 {
+  margin: 2%;
+  color: #b0dc0f;
+}
+
+h6 {
+  color: #ffffff;
+}
+
 /* unvisited link */
 a:link {
   color: gray;
