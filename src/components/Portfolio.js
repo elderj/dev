@@ -43,6 +43,14 @@ const Portfolio = () => (
         </li>
         <li className="portfolioListItem">
           <div className="tooltip">
+            <a href="http://elderj.6te.net/Examples/StepsToCalorieConversion/index.html">
+              Convert Steps to Calories
+            </a>
+            <span className="tooltiptext">How fitbit steps should work..</span>
+          </div>
+        </li>
+        <li className="portfolioListItem">
+          <div className="tooltip">
             <a href="https://jmonman.github.io/HealthTrack/">Health Snapshot</a>
             <span className="tooltiptext">
               A Webapp which me and my brother worked on for his final project.
