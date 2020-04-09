@@ -28,6 +28,6 @@ ul {
 }
 
 .portfolioListItem:hover {
-  font-size: 19px;
+  font-weight: bold;
   color: #f7ba0c;
 }
