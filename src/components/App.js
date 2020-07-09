@@ -6,16 +6,8 @@ import Contact from "./Contact";
 import Questions from "./Questions";
 
 import { Switch, Route } from "react-router-dom";
-import ReactGA from "react-ga";
-
-function initializeReactGA() {
-  ReactGA.initialize("UA-172133710-1");
-  ReactGA.pageview("/homepage");
-}
 
 function App() {
-  initializeReactGA();
-
   return (
     <div className="App">
       <Switch>

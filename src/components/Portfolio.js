@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 import "../styles/App.scss";
 import "../styles/list.css";
 import "../styles/font.css";
@@ -7,8 +8,14 @@ import Header from "./Header";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
+function initializeReactGA() {
+  ReactGA.initialize("UA-172133710-1");
+  ReactGA.pageview("/portfolio");
+}
+
 const Portfolio = () => (
   <div className="floating-content">
+    {initializeReactGA()}
     <Header />
     <NavBar />
     <h4 className="quicksand-text">Web Projects</h4>
