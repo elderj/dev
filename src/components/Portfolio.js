@@ -107,6 +107,13 @@ const Portfolio = () => (
             </a>
           </div>
         </li>
+        <li className="portfolioListItem">
+          <div className="tooltip">
+            <a href="https://gallery.fitbit.com/details/a59314f7-2ac1-4101-bc5d-a0c1240e2a99">
+              Waves
+            </a>
+          </div>
+        </li>
       </ul>
     </div>
 

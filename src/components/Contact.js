@@ -32,7 +32,6 @@ const Contact = () => (
       <br />
       <br />
       <h5>ElderDevelopmentCompany@gmail.com</h5>
-      <h5>(843)-888-3211</h5>
     </p>
 
     <br />
