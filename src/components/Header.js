@@ -8,7 +8,7 @@ const Header = () => (
   <Fragment>
     <div className="header">
       <img className="headerImageLogo" alt="Diamond Logo" src={logo} />
-      <h1 className="pacifico-text headerTitleText">jelder</h1>
+      <h1 className="pacifico-text headerTitleText">Elder Design Concepts</h1>
     </div>
   </Fragment>
 );

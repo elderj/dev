@@ -16,7 +16,7 @@ const Footer = () => (
 
     <br />
 
-    <h6 className="quicksand-text">© 2020 Elder Development Company</h6>
+    <h6 className="quicksand-text">© 2020 Elder Design Concepts</h6>
   </Fragment>
 );
 

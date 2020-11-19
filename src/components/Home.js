@@ -26,11 +26,11 @@ const Home = () => (
     <p className="quicksand-text blurb">
       I have been doing web development for roughly 10 years. Read a little more{" "}
       <Link to="/about">about me</Link> or check out my{" "}
-      <Link to="/portfolio">portfolio</Link> of web projects.
+      <Link to="/portfolio">portfolio</Link> to see some of web projects.
       <br />
       <br />I specialize in custom web/application development and design
-      consulting. If you're interested in having a custom website made,{" "}
-      <Link to="/contact">contact me</Link> and we can get started.
+      consulting. If you're interested in having a custom website made, need some technical help,{" "} or have questions,
+      <Link to="/contact">contact me</Link> and I will get right back to you.
       <br />
       <br />
     </p>

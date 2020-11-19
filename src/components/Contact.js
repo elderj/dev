@@ -20,15 +20,13 @@ const Contact = () => (
     <p className="quicksand-text blurb">
       <h4>Have some questions?</h4>
       <br />
-      <h4>Want me to build you an awesome website?</h4>
-      <br />
       <a
         href="mailto:elderdevelopmentcompany@gmail.com?Subject=In Need of a Website"
         target="_top"
       >
         Send me an email
       </a>{" "}
-      with some details or contact info and we can get started.
+      with some details or contact info and I'll get back to you.
       <br />
       <br />
       <h5>ElderDevelopmentCompany@gmail.com</h5>
