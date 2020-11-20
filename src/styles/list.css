@@ -1,11 +1,9 @@
 .niceLookingList {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   text-align: left;
   color: #b0dc0f;
   list-style-type: disc;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 ul {
