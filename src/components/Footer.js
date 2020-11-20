@@ -7,9 +7,7 @@ import "../styles/font.css";
 
 const Footer = () => (
   <Fragment>
-
     <br />
-
     <h6 className="quicksand-text">© 2020 Elder Design Concepts</h6>
   </Fragment>
 );

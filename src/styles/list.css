@@ -4,6 +4,8 @@
   text-align: left;
   color: #b0dc0f;
   list-style-type: disc;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 ul {

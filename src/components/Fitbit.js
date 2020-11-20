@@ -23,9 +23,7 @@ const Fitbit = () => (
 
     <p className="quicksand-text blurb">
       <h4>Fitbit Clock Faces</h4>
-      <a href="https://gallery.fitbit.com/developer/83781fbc-98a0-4eb7-9a7e-50dfbfcddb0e">
-              Full Gallery
-            </a>
+      You can view individual clockfaces below that catch your interest or can checkout my <a href="https://gallery.fitbit.com/developer/83781fbc-98a0-4eb7-9a7e-50dfbfcddb0e">full gallery</a> from Fitibit.
     </p>
     <div className="niceLookingList">
       <ul>
