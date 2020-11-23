@@ -30,6 +30,8 @@ const Contact = () => (
       <br />
       <br />
       <h5>ElderDevelopmentCompany@gmail.com</h5>
+      <br />
+      Follow me on Instagram <a  href="https://www.instagram.com/elderdesignconcepts/">@ElderDesignConcepts</a> to check out some more of my designs and interests.
     </p>
 
     <br />

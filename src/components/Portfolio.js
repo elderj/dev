@@ -75,6 +75,14 @@ const Portfolio = () => (
             <span className="tooltiptext">Various Fitbit clockfaces.</span>
           </div>
         </li>
+        <li className="portfolioListItem">
+          <div className="tooltip">
+          <a href="https://www.redbubble.com/people/EDCShop/shop">
+              Designs on Merchandise
+          </a>
+            <span className="tooltiptext">Some cool graphic design work I've got for purchase on RedBubble.</span>
+          </div>
+        </li>
       </ul>
     </div>
     
