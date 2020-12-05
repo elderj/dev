@@ -1,0 +1,109 @@
+.niceLookingList {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  color: #b0dc0f;
+  list-style-type: disc;
+}
+
+ul {
+  margin-left: 15%;
+  max-width: 70%;
+  text-align: left;
+}
+
+.portfolioListItem:last-child {
+  border: none;
+}
+
+.portfolioListItem a {
+  text-decoration: none;
+  display: block;
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+.portfolioListItem:hover {
+  font-weight: bold;
+  color: #f7ba0c;
+}
+
+//Tool tip stuff
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  vertical-align: text-top;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+}
+
+//Tool Tip stuff
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-bottom: 0;
+  // border-width: 5px;
+  // border-style: solid;
+  // border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  background-color: rgb(200, 200, 200);
+  width: 80%;
+  font-size: 14px;
+  color: #000000;
+}
+
+.tooltip .tootipFitbitImage {
+  visibility: hidden;
+  width: 400px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+}
+
+// Fitbit specific tooltip styles
+// -Displays an image vs text
+// .tooltip .tootipFitbitImage::after {
+//   content: "";
+//   position: absolute;
+//   top: 50%;
+//   right: 100%;
+//   margin-top: -5px;
+//   border-bottom: 0;
+//   // border-width: 5px;
+//   // border-style: solid;
+//   // border-color: transparent black transparent transparent;
+// }
+// .tooltip:hover .tootipFitbitImage {
+//   visibility: visible;
+//   width: 80%;
+//   font-size: 14px;
+//   color: #000000;
+// }
+
+//End tool tip stuff

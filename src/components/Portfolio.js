@@ -3,7 +3,7 @@ import ReactGA from "react-ga";
 import { Link } from "react-router-dom";
 
 import "../styles/App.scss";
-import "../styles/list.css";
+import "../styles/list.scss";
 import "../styles/font.css";
 
 import Header from "./Header";
