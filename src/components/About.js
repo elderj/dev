@@ -1,5 +1,4 @@
 import React from "react";
-import ReactGA from "react-ga";
 import "../styles/App.scss";
 import "../styles/font.css";
 
@@ -9,14 +8,10 @@ import Footer from "./Footer";
 
 import palmetto from "../images/sc.png";
 
-function initializeReactGA() {
-  ReactGA.initialize("UA-172133710-1");
-  ReactGA.pageview("/about");
-}
+
 
 const About = () => (
   <div className="floating-content">
-    {initializeReactGA()}
     <Header />
     <NavBar />
     <h4 className="quicksand-text">A little more about me</h4>

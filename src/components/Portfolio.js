@@ -1,5 +1,4 @@
 import React from "react";
-import ReactGA from "react-ga";
 import { Link } from "react-router-dom";
 
 import "../styles/App.scss";
@@ -10,14 +9,8 @@ import Header from "./Header";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
-function initializeReactGA() {
-  ReactGA.initialize("UA-172133710-1");
-  ReactGA.pageview("/portfolio");
-}
-
 const Portfolio = () => (
   <div className="floating-content">
-    {initializeReactGA()}
     <Header />
     <NavBar />
     <h4 className="quicksand-text">Check out some of my web projects</h4>
@@ -69,23 +62,22 @@ const Portfolio = () => (
         </li>
         <li className="portfolioListItem">
           <div className="tooltip">
-          <Link to="/fitbit">
-              Fitbit Clockfaces
-          </Link>
+            <Link to="/fitbit">Fitbit Clockfaces</Link>
             <span className="tooltiptext">Various Fitbit clockfaces.</span>
           </div>
         </li>
         <li className="portfolioListItem">
           <div className="tooltip">
-          <a href="https://www.redbubble.com/people/EDCShop/shop">
+            <a href="https://www.redbubble.com/people/EDCShop/shop">
               Designs on Merchandise
-          </a>
-            <span className="tooltiptext">Some cool graphic design work I've got for purchase on RedBubble.</span>
+            </a>
+            <span className="tooltiptext">
+              Some cool graphic design work I've got for purchase on RedBubble.
+            </span>
           </div>
         </li>
       </ul>
     </div>
-    
 
     <br />
     <br />
