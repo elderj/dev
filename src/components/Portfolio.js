@@ -18,9 +18,11 @@ const Portfolio = () => (
       <ul>
         <li className="portfolioListItem">
           <div className="tooltip">
-            <a href="https://elderj.github.io/TriangleSkillGame">
+            <Link to="/portfolio/triangle-skill-game">
+
               Triangle Skill Game
-            </a>
+              </Link>
+            
             <span className="tooltiptext">The classic peg jumping game</span>
           </div>
         </li>
