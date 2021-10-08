@@ -19,16 +19,16 @@ const Portfolio = () => (
         <li className="portfolioListItem">
           <div className="tooltip">
             <Link to="/portfolio/triangle-skill-game">
-
               Triangle Skill Game
               </Link>
-            
             <span className="tooltiptext">The classic peg jumping game</span>
           </div>
         </li>
         <li className="portfolioListItem">
           <div className="tooltip">
-            <a href="https://elderj.github.io/Kings/">Kings Drinking Game</a>
+          <Link to="/portfolio/kings-card-game">
+          Kings Drinking Game
+          </Link>
             <span className="tooltiptext">The classic drinking game</span>
           </div>
         </li>
