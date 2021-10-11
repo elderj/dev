@@ -18,11 +18,7 @@ const Portfolio = () => (
       <ul>
         <li className="portfolioListItem">
           <div className="tooltip">
-            <Link to="/portfolio/triangle-skill-game">
-
-              Triangle Skill Game
-              </Link>
-            
+            <Link to="/portfolio/triangle-skill-game">Triangle Skill Game</Link>
             <span className="tooltiptext">The classic peg jumping game</span>
           </div>
         </li>
@@ -32,7 +28,16 @@ const Portfolio = () => (
             <span className="tooltiptext">The classic drinking game</span>
           </div>
         </li>
-
+        <li className="portfolioListItem">
+          <div className="tooltip">
+            <a href="https://play.google.com/store/apps/dev?id=9138247524963784910">
+              Google Play Store Apps
+            </a>
+            <span className="tooltiptext">
+              Elder Design Concepts' Developer Page
+            </span>
+          </div>
+        </li>
         <li className="portfolioListItem">
           <div className="tooltip">
             <a href="https://elderj.github.io/PalmettoDominion/">
