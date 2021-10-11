@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.08cc17cc.chunk.css",
-    "main.js": "/static/js/main.1f940918.chunk.js",
-    "main.js.map": "/static/js/main.1f940918.chunk.js.map",
+    "main.js": "/static/js/main.ffcbcc61.chunk.js",
+    "main.js.map": "/static/js/main.ffcbcc61.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.a5f950fa.chunk.js": "/static/js/2.a5f950fa.chunk.js",
     "static/js/2.a5f950fa.chunk.js.map": "/static/js/2.a5f950fa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e44fc85e41f48a57292173932283380d.js": "/precache-manifest.e44fc85e41f48a57292173932283380d.js",
+    "precache-manifest.72e5ad18a5c4767c35fb5ab24fd26b04.js": "/precache-manifest.72e5ad18a5c4767c35fb5ab24fd26b04.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.08cc17cc.chunk.css.map": "/static/css/main.08cc17cc.chunk.css.map",
     "static/media/App.scss": "/static/media/dark_wood.d35f4a25.png",
