@@ -6,6 +6,9 @@ import Fitbit from "./Fitbit";
 import Contact from "./Contact";
 import Questions from "./Questions";
 
+import KingsGame from "./portfolio/KingsGame";
+import KingsGameTOS from "./portfolio/KingsGameTOS";
+import KingsGamePP from "./portfolio/KingsGamePP";
 import TriangleSkillGame from "./portfolio/TriangleSkillGame";
 import TriangleSkillGameTOS from "./portfolio/TriangleSkillGameTOS";
 import TriangleSkillGamePP from "./portfolio/TriangleSkillGamePP";
@@ -18,6 +21,18 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/portfolio/kings-card-game" component={KingsGame} />
+        <Route
+          exact
+          path="/portfolio/kings-card-game/terms"
+          component={KingsGameTOS}
+        />
+        <Route
+          exact
+          path="/portfolio/kings-card-game/privacy"
+          component={KingsGamePP}
+        />
+
         <Route
           exact
           path="/portfolio/triangle-skill-game"

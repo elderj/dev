@@ -24,7 +24,7 @@ const Portfolio = () => (
         </li>
         <li className="portfolioListItem">
           <div className="tooltip">
-            <a href="https://elderj.github.io/Kings/">Kings Drinking Game</a>
+            <Link to="/portfolio/kings-card-game">Kings Drinking Game</Link>
             <span className="tooltiptext">The classic drinking game</span>
           </div>
         </li>

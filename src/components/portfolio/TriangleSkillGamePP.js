@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/App.scss";
 import "../../styles/font.css";
 
@@ -33,9 +34,12 @@ const TriangleSkillGamePP = () => (
         this Privacy Policy.
       </p>{" "}
       <p>
-        The terms used in this Privacy Policy have the same meanings as in our
-        Terms and Conditions, which is accessible at Triangle Skill Game unless
-        otherwise defined in this Privacy Policy.
+        The terms used in this Privacy Policy have the same meanings as in our{" "}
+        <Link to="/portfolio/triangle-skill-game/terms">
+          Terms and Conditions
+        </Link>
+        , which is accessible at Triangle Skill Game unless otherwise defined in
+        this Privacy Policy.
       </p>{" "}
       <p>
         <strong>Information Collection and Use</strong>
