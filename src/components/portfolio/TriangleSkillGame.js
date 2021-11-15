@@ -17,7 +17,13 @@ const TriangleSkillGame = () => (
     </h3>
 
     <p className="quicksand-text blurb">
-      Check out my android app
+      Check out the{" "}
+      <a href="https://play.google.com/store/apps/details?id=com.elderdesignconcepts.triangleskillgame">
+        Android app
+      </a>
+      <br />
+      Or the{" "}
+      <a href="https://elderj.github.io/TriangleSkillGame">Web version</a>
       <ul>
         <li>
           <Link to="/portfolio/triangle-skill-game/terms">
@@ -30,9 +36,6 @@ const TriangleSkillGame = () => (
           </Link>
         </li>
       </ul>
-      <br />
-      Or the{" "}
-      <a href="https://elderj.github.io/TriangleSkillGame">Web version</a>
     </p>
     <br />
     <br />
