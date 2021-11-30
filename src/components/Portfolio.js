@@ -19,13 +19,26 @@ const Portfolio = () => (
         <li className="portfolioListItem">
           <div className="tooltip">
             <Link to="/portfolio/triangle-skill-game">Triangle Skill Game</Link>
-            <span className="tooltiptext">The classic peg jumping game</span>
+            <span className="tooltiptext">
+              The classic peg jumping solitaire game
+            </span>
           </div>
         </li>
         <li className="portfolioListItem">
           <div className="tooltip">
             <Link to="/portfolio/kings-card-game">Kings Drinking Game</Link>
             <span className="tooltiptext">The classic drinking game</span>
+          </div>
+        </li>
+        <li className="portfolioListItem">
+          <div className="tooltip">
+            <Link to="/portfolio/random-name-generator">
+              Random Name Generator App
+            </Link>
+            <span className="tooltiptext">
+              Generate random names for usernames, funny team names, or just for
+              fun.
+            </span>
           </div>
         </li>
         <li className="portfolioListItem">

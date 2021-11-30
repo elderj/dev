@@ -12,6 +12,9 @@ import KingsGamePP from "./portfolio/KingsGamePP";
 import TriangleSkillGame from "./portfolio/TriangleSkillGame";
 import TriangleSkillGameTOS from "./portfolio/TriangleSkillGameTOS";
 import TriangleSkillGamePP from "./portfolio/TriangleSkillGamePP";
+import RandomNameGenerator from "./portfolio/RandomNameGenerator";
+import RandomNameGeneratorTOS from "./portfolio/RandomNameGeneratorTOS";
+import RandomNameGeneratorPP from "./portfolio/RandomNameGeneratorPP";
 
 import { Switch, Route } from "react-router-dom";
 
@@ -31,6 +34,21 @@ function App() {
           exact
           path="/portfolio/kings-card-game/privacy"
           component={KingsGamePP}
+        />
+        <Route
+          exact
+          path="/portfolio/random-name-generator"
+          component={RandomNameGenerator}
+        />
+        <Route
+          exact
+          path="/portfolio/random-name-generator/terms"
+          component={RandomNameGeneratorTOS}
+        />
+        <Route
+          exact
+          path="/portfolio/random-name-generator/privacy"
+          component={RandomNameGeneratorPP}
         />
 
         <Route

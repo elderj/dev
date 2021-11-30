@@ -7,12 +7,12 @@ import Header from "../Header";
 import NavBar from "../NavBar";
 import Footer from "../Footer";
 
-const KingsGame = () => (
+const RandomNameGenerator = () => (
   <div className="floating-content">
     <Header />
     <NavBar />
     <h3 className="quicksand-text blurb">
-      Kings Game
+      Random Name Generator App
       <br />
     </h3>
 
@@ -21,10 +21,14 @@ const KingsGame = () => (
       coming shortly also!
       <ul>
         <li>
-          <Link to="/portfolio/kings-card-game/terms">Terms of Service</Link>
+          <Link to="/portfolio/random-name-generator/terms">
+            Terms of Service
+          </Link>
         </li>
         <li>
-          <Link to="/portfolio/kings-card-game/privacy">Privacy Policy</Link>
+          <Link to="/portfolio/random-name-generator/privacy">
+            Privacy Policy
+          </Link>
         </li>
       </ul>
       <br />
@@ -38,4 +42,4 @@ const KingsGame = () => (
   </div>
 );
 
-export default KingsGame;
+export default RandomNameGenerator;
