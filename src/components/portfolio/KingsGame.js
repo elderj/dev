@@ -17,8 +17,11 @@ const KingsGame = () => (
     </h3>
 
     <p className="quicksand-text blurb">
-      Check out my android app once it goes live! There will be a web version
-      coming shortly also!
+      Check out my android app once it goes live!
+      <br />
+      <br />
+      In the meantime, check out the{" "}
+      <a href="https://elderj.github.io/Kings/">Web version</a>{" "}
       <ul>
         <li>
           <Link to="/portfolio/kings-card-game/terms">Terms of Service</Link>
@@ -27,8 +30,6 @@ const KingsGame = () => (
           <Link to="/portfolio/kings-card-game/privacy">Privacy Policy</Link>
         </li>
       </ul>
-      <br />
-      Or the <a href="https://elderj.github.io/Kings/">Web version</a>
     </p>
     <br />
     <br />

@@ -8,8 +8,6 @@ import Footer from "./Footer";
 
 import palmetto from "../images/sc.png";
 
-
-
 const About = () => (
   <div className="floating-content">
     <Header />

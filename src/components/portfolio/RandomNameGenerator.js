@@ -17,8 +17,13 @@ const RandomNameGenerator = () => (
     </h3>
 
     <p className="quicksand-text blurb">
-      Check out my android app once it goes live! There will be a web version
-      coming shortly also!
+      Check out my{" "}
+      <a href="https://play.google.com/store/apps/details?id=com.elderdesignconcepts.randomnamegenerator">
+        Android app.
+      </a>
+      <br />
+      <br />
+      There will be a web version coming shortly also!
       <ul>
         <li>
           <Link to="/portfolio/random-name-generator/terms">
@@ -31,8 +36,6 @@ const RandomNameGenerator = () => (
           </Link>
         </li>
       </ul>
-      <br />
-      Or the <a href="https://elderj.github.io/Kings/">Web version</a>
     </p>
     <br />
     <br />
