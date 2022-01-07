@@ -10,7 +10,7 @@ const Footer = () => (
       <img className="linkLogoImage" alt="LinkedIn logo" src={instagramLogo} />
     </a>
     <br />
-    <h6 className="quicksand-text">© 2021 Elder Design Concepts</h6>
+    <h6 className="quicksand-text">© 2022 Elder Design Concepts</h6>
   </Fragment>
 );
 
