@@ -9,9 +9,9 @@ html {
   width: 55%;
   margin: 0 auto;
   margin-top: 2%;
-  /* Background pattern from Toptal Subtle Patterns */
-  background-image: url("../images/dark_wood.png");
+  background-image: url("../images/dark_triangles.png");
   background-repeat: repeat;
+  background-size: contain;
   border-radius: 25px;
   padding: 5px;
   white-space: normal;
@@ -25,8 +25,7 @@ html {
 }
 
 body {
-  /* Background pattern from Toptal Subtle Patterns */
-  background-image: url("../images/swirl_pattern.png");
+  background-image: url("../images/circuits.png");
   background-repeat: repeat;
 }
 

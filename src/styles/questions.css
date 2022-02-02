@@ -17,8 +17,7 @@
 
 /* Content */
 .accordion > div > div:last-of-type {
-  /* Background pattern from Toptal Subtle Patterns */
-  background-image: url("../images/swirl_pattern.png");
+  /* background-image: url("../images/swirl_pattern.png"); */
   background-repeat: repeat;
   opacity: 0.6;
   margin: 0% 6%;

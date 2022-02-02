@@ -32,12 +32,12 @@ h6 {
 
 /* unvisited link */
 a:link {
-  color: gray;
+  color: rgb(190, 190, 190);
 }
 
 /* visited link */
 a:visited {
-  color: gray;
+  color: rgb(190, 190, 190);
 }
 
 /* mouse over link */
@@ -47,7 +47,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: gray;
+  color: rgb(190, 190, 190);
 }
 
 table.table-content tr td {
