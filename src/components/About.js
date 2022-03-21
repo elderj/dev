@@ -18,7 +18,7 @@ const About = () => (
       real world.
       <br />
       <br />
-      Currently based out of Charleston South Carolina{" "}
+      Currently based out of Charleston, South Carolina{" "}
       <img className="linkLogoImage" alt="South Carolina" src={palmetto} />
       <br />
       <br />I have a ton of hobbies outside of my profession including:
