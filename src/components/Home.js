@@ -12,23 +12,25 @@ const Home = () => (
     <Header />
     <NavBar />
     <h3 className="quicksand-text blurb">
+      <br />
       Professional development with a touch of fun!
       <br />
       <br />
     </h3>
 
     <p className="quicksand-text blurb">
-      My name is Joe Elder and I really enjoy software development, building
-      custom websites and applications amongst many other things.
+      There is nothing cooler than building something awesome, whether digitally
+      or in the real world <i>(or both!)</i>
       <br />
       <br />
-      Read a little more <Link to="/about">about me</Link> or check out my{" "}
-      <Link to="/portfolio">portfolio</Link> to see some of my projects.
+      Read a little more <Link to="/about">about E.D.C.</Link> or check out the{" "}
+      <Link to="/portfolio">portfolio</Link> to see some of our projects.
       <br />
       <br />
-      If you're interested in having a custom website made, need some technical
-      help, or have questions, send me an <Link to="/contact">email</Link> and
-      we can work on building something awesome together.
+      If you're interested in having a custom website or app made, need some
+      technical help, or have questions, send an{" "}
+      <Link to="/contact">email</Link> so we can work on building something
+      awesome together.
       <br />
     </p>
     <br />

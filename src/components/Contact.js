@@ -17,9 +17,8 @@ const Contact = () => (
         href="mailto:elderdesignconcepts@gmail.com?Subject=Elder Design Concepts:Contact"
         target="_top"
       >
-        Send me an email
+        Send an email
       </a>{" "}
-      with some details or contact info and I'll get back to you.
       <br />
       <br />
       <h5>ElderDesignConcepts@gmail.com</h5>
@@ -28,7 +27,7 @@ const Contact = () => (
       <a href="https://www.instagram.com/elderdesignconcepts/">
         @ElderDesignConcepts
       </a>{" "}
-      to check out some more of my designs and interests.
+      to check out some more designs and interests.
     </p>
 
     <br />
