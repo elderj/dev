@@ -13,7 +13,7 @@ const Portfolio = () => (
   <div className="floating-content">
     <Header />
     <NavBar />
-    <h4 className="quicksand-text">Check out some of my web projects</h4>
+    <h4 className="quicksand-text">Check out some of existing web projects</h4>
     <div className="niceLookingList">
       <ul>
         <li className="portfolioListItem">
@@ -92,7 +92,7 @@ const Portfolio = () => (
               Designs on Merchandise
             </a>
             <span className="tooltiptext">
-              Some cool graphic design work I've got for purchase on RedBubble.
+              Some cool graphic design work for purchase on RedBubble.
             </span>
           </div>
         </li>
