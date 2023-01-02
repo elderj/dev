@@ -15,7 +15,7 @@ const Footer = () => (
     </a>
 
     <br />
-    <h6 className="quicksand-text">© 2022 Elder Design Concepts</h6>
+    <h6 className="quicksand-text">© 2023 Elder Design Concepts LLC</h6>
   </Fragment>
 );
 
