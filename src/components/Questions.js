@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../styles/App.scss";
+import "../styles/App.css";
 import "../styles/font.css";
 import "../styles/questions.css";
 
@@ -14,7 +14,7 @@ class Questions extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedIndex: -1
+      selectedIndex: -1,
     };
   }
   render() {

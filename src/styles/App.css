@@ -29,7 +29,6 @@ body {
   background-repeat: repeat;
 }
 
-// For the image in the header
 .header {
   display: inline-block;
   padding-top: 20px;
@@ -44,7 +43,6 @@ body {
   vertical-align: top; /* here */
 }
 
-// For the images in the footer that link to external sites
 .linkLogoImage {
   width: 25px;
   margin: 0 8px;

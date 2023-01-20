@@ -31,7 +31,6 @@ ul {
   color: #f7ba0c;
 }
 
-//Tool tip stuff
 .tooltip {
   position: relative;
   display: inline-block;
@@ -53,7 +52,6 @@ ul {
   left: 110%;
 }
 
-//Tool Tip stuff
 .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
@@ -61,9 +59,6 @@ ul {
   right: 100%;
   margin-top: -5px;
   border-bottom: 0;
-  // border-width: 5px;
-  // border-style: solid;
-  // border-color: transparent black transparent transparent;
 }
 .tooltip:hover .tooltiptext {
   visibility: visible;
@@ -85,25 +80,3 @@ ul {
   top: -5px;
   left: 110%;
 }
-
-// Fitbit specific tooltip styles
-// -Displays an image vs text
-// .tooltip .tootipFitbitImage::after {
-//   content: "";
-//   position: absolute;
-//   top: 50%;
-//   right: 100%;
-//   margin-top: -5px;
-//   border-bottom: 0;
-//   // border-width: 5px;
-//   // border-style: solid;
-//   // border-color: transparent black transparent transparent;
-// }
-// .tooltip:hover .tootipFitbitImage {
-//   visibility: visible;
-//   width: 80%;
-//   font-size: 14px;
-//   color: #000000;
-// }
-
-//End tool tip stuff

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import "../styles/App.scss";
+import "../styles/App.css";
 import "../styles/font.css";
 
 import instagramLogo from "../images/linkLogoImages/instagram-logo.png";
