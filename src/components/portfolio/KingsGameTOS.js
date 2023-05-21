@@ -85,7 +85,8 @@ const KingsGameTOS = () => (
     <h3 className="quicksand-text blurb">9. Governing Law</h3>
     <p className="quicksand-text blurb">
       These Terms shall be governed by and construed in accordance with the laws
-      of [Jurisdiction], without regard to its conflict of law principles.
+      of the user's jurisdiction, without regard to its conflict of law
+      principles.
     </p>{" "}
     <h3 className="quicksand-text blurb">10. Contact Information</h3>
     <p className="quicksand-text blurb">
@@ -93,7 +94,7 @@ const KingsGameTOS = () => (
       the Kings Drinking Game app, please contact us at
       ElderDesignConcepts@gmail.com
     </p>
-    Effective Date: 5/21/2023
+    <p className="quicksand-text blurb">Effective Date: 5/21/2023</p>
     {/* <div>
       {" "}
       <p className="quicksand-text blurb">
