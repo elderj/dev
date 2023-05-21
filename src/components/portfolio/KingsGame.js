@@ -19,9 +19,6 @@ const KingsGame = () => (
     <p className="quicksand-text blurb">
       Check out my android app once it goes live!
       <br />
-      <br />
-      In the meantime, check out the{" "}
-      <a href="https://elderj.github.io/Kings/">Web version</a>{" "}
       <ul>
         <li>
           <Link to="/portfolio/kings-card-game/terms">Terms of Service</Link>
