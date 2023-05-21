@@ -11,47 +11,90 @@ const KingsGameTOS = () => (
     <Header />
     <NavBar />
     <h3 className="quicksand-text blurb">
-      Kings Drinking Game TERMS OF SERVICE
+      Terms of Service for Kings Drinking Game
       <br />
     </h3>
+    <br />
+    <h3 className="quicksand-text blurb">1. Acceptance of Terms</h3>
     <p className="quicksand-text blurb">
-      Welcome to the Kings Drinking Game app (the "App"), which is owned and
-      operated by Elder Design Concepts LLC ("we," "us," or "our"). These Terms
-      of Service ("Terms") govern your access to and use of the App, and
-      constitute a binding legal agreement between you and us.
-    </p>
-    <h3 className="quicksand-text blurb">ACCEPTANCE OF TERMS</h3>
-    <p className="quicksand-text blurb">
-      By downloading, accessing, or using the App, you agree to be bound by
-      these Terms. If you do not agree to these Terms, you may not use the App.
-    </p>
-    <h3 className="quicksand-text blurb">AGE REQUIREMENT</h3>
-    <p className="quicksand-text blurb">
-      The App is intended for use by individuals who are of legal drinking age
-      in their jurisdiction. By using the App, you represent and warrant that
-      you are of legal drinking age in your jurisdiction.
-    </p>
-    <h3 className="quicksand-text blurb">DISCLAIMER OF LIABILITY</h3>
-    <p className="quicksand-text blurb">
-      The App is intended to be used as a fun and entertaining drinking game.
-      However, we do not endorse excessive or irresponsible drinking. By using
-      the App, you acknowledge and agree that you assume all risks associated
-      with consuming alcohol, and we disclaim all liability for any damages,
-      injuries, or other harm that may result from your use of the App.
-    </p>
-    <h3 className="quicksand-text blurb">PERSONAL DATA</h3>
-    <p className="quicksand-text blurb">
-      The Kings Drinking Game app stores and processes personal data that you
-      have provided to us, in order to provide our Service. It’s your
-      responsibility to keep your phone and access to the app secure. We
-      therefore recommend that you do not jailbreak or root your phone, which is
-      the process of removing software restrictions and limitations imposed by
-      the official operating system of your device. It could make your phone
-      vulnerable to malware/viruses/malicious programs, compromise your phone’s
-      security features and it could mean that the Kings Drinking Game app won’t
-      work properly or at all.
+      By downloading, installing, or using the Kings Drinking Game application
+      ("the App"), you agree to be bound by these Terms of Service ("Terms"). If
+      you do not agree to these Terms, please refrain from using the App.
     </p>{" "}
-    <div>
+    <h3 className="quicksand-text blurb">2. Description of the App</h3>
+    <p className="quicksand-text blurb">
+      The Kings Drinking Game app, developed by Elder Design Concepts LLC, is a
+      digital version of the popular drinking game. It provides a virtual deck
+      of cards and associated rules for players to enjoy the game on their
+      mobile devices. The App is intended for entertainment purposes only and
+      should be used responsibly.
+    </p>{" "}
+    <h3 className="quicksand-text blurb">3. User Conduct</h3>
+    <p className="quicksand-text blurb">
+      When using the App, you agree to: a) Use the App solely for personal and
+      non-commercial purposes. b) Comply with all applicable laws and
+      regulations while using the App. c) Refrain from engaging in any activity
+      that may disrupt, interfere with, or harm the functionality of the App or
+      its associated services. d) Not use the App to promote or engage in any
+      illegal, harmful, or offensive activities.
+    </p>{" "}
+    <h3 className="quicksand-text blurb">4. Drinking Responsibly</h3>
+    <p className="quicksand-text blurb">
+      The Kings Drinking Game app involves the consumption of alcoholic
+      beverages as part of the game. It is essential that you drink responsibly
+      and in accordance with legal drinking age requirements and applicable
+      laws. Elder Design Concepts LLC is not responsible for any misuse or
+      consequences resulting from the consumption of alcohol while using the
+      App. Please drink responsibly and in moderation.
+    </p>{" "}
+    <h3 className="quicksand-text blurb">5. Intellectual Property Rights</h3>
+    <p className="quicksand-text blurb">
+      The App, including its design, graphics, text, and other content, is the
+      property of Elder Design Concepts LLC and is protected by copyright and
+      other intellectual property laws. You agree not to copy, modify,
+      distribute, or reproduce any part of the App without prior written consent
+      from Elder Design Concepts LLC.
+    </p>{" "}
+    <h3 className="quicksand-text blurb">6. Limitation of Liability</h3>
+    <p className="quicksand-text blurb">
+      Elder Design Concepts LLC shall not be held liable for any damages,
+      losses, or liabilities arising out of or related to the use of the App.
+      This includes, but is not limited to, any direct, indirect, incidental,
+      consequential, or punitive damages, regardless of whether Elder Design
+      Concepts LLC has been advised of the possibility of such damages.
+    </p>{" "}
+    <h3 className="quicksand-text blurb">7. Indemnification</h3>
+    <p className="quicksand-text blurb">
+      You agree to indemnify and hold Elder Design Concepts LLC and its
+      affiliates, officers, directors, employees, and agents harmless from any
+      claims, liabilities, damages, losses, costs, or expenses (including
+      attorney's fees) arising out of or related to your use of the App or any
+      violation of these Terms.
+    </p>{" "}
+    <h3 className="quicksand-text blurb">
+      8. Modifications to the App and Terms
+    </h3>
+    <p className="quicksand-text blurb">
+      Elder Design Concepts LLC reserves the right to modify, suspend, or
+      discontinue the App, or any part thereof, at any time without prior
+      notice. We also reserve the right to update or modify these Terms at any
+      time. It is your responsibility to review the Terms periodically for any
+      changes. Continued use of the App after modifications to the Terms
+      constitutes your acceptance of the revised Terms.
+    </p>{" "}
+    <h3 className="quicksand-text blurb">9. Governing Law</h3>
+    <p className="quicksand-text blurb">
+      These Terms shall be governed by and construed in accordance with the laws
+      of [Jurisdiction], without regard to its conflict of law principles.
+    </p>{" "}
+    <h3 className="quicksand-text blurb">10. Contact Information</h3>
+    <p className="quicksand-text blurb">
+      If you have any questions, concerns, or feedback regarding these Terms or
+      the Kings Drinking Game app, please contact us at
+      ElderDesignConcepts@gmail.com
+    </p>
+    Effective Date: 5/21/2023
+    {/* <div>
       {" "}
       <p className="quicksand-text blurb">
         The app does use third party services that declare their own Terms and
@@ -90,37 +133,7 @@ const KingsGameTOS = () => (
           </a>
         </li>
       </ul>
-    </div>
-    <h3 className="quicksand-text blurb">INTELLECTUAL PROPERTY</h3>
-    <p className="quicksand-text blurb">
-      All content and materials in the App, including but not limited to text,
-      graphics, logos, images, and software, are the property of Elder Design
-      Concepts LLC or its licensors and are protected by copyright, trademark,
-      and other intellectual property laws. You may not reproduce, distribute,
-      or create derivative works based on the App or its content without our
-      prior written permission.
-    </p>
-    <h3 className="quicksand-text blurb">DISCLAIMER OF WARRANTIES</h3>
-    <p className="quicksand-text blurb">
-      The App is provided "as is" and "as available," without warranties of any
-      kind, either express or implied, including but not limited to warranties
-      of merchantability, fitness for a particular purpose, or non-infringement.
-      We do not warrant that the App will meet your requirements, be
-      uninterrupted, or be error-free.
-    </p>
-    <h3 className="quicksand-text blurb">LIMITATION OF LIABILITY</h3>
-    <p className="quicksand-text blurb">
-      To the fullest extent permitted by law, we will not be liable to you for
-      any indirect, incidental, special, or consequential damages arising out of
-      or in connection with your use of the App, including but not limited to
-      damages for lost profits, loss of data, or loss of goodwill.
-    </p>
-    <h3 className="quicksand-text blurb">CHANGES TO TERMS</h3>
-    <p className="quicksand-text blurb">
-      We reserve the right to modify these Terms at any time without notice.
-      Your continued use of the App following any such modifications constitutes
-      your acceptance of the revised Terms.
-    </p>
+    </div> */}
     <br />
     <br />
     <Footer />
