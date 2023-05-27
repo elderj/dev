@@ -18,6 +18,22 @@ const Portfolio = () => (
       <ul>
         <li className="portfolioListItem">
           <div className="tooltip">
+            <a href="https://play.google.com/store/apps/dev?id=9138247524963784910">
+              Google Play Store Apps
+            </a>
+            <span className="tooltiptext">
+              Elder Design Concepts' Developer Page
+            </span>
+          </div>
+        </li>
+        <li className="portfolioListItem">
+          <div className="tooltip">
+            <Link to="/fitbit">Fitbit Clockfaces</Link>
+            <span className="tooltiptext">Various Fitbit clockfaces.</span>
+          </div>
+        </li>
+        <li className="portfolioListItem">
+          <div className="tooltip">
             <Link to="/portfolio/triangle-skill-game">Triangle Skill Game</Link>
             <span className="tooltiptext">
               The classic peg jumping solitaire game
@@ -38,16 +54,6 @@ const Portfolio = () => (
             <span className="tooltiptext">
               Generate random names for usernames, funny team names, or just for
               fun.
-            </span>
-          </div>
-        </li>
-        <li className="portfolioListItem">
-          <div className="tooltip">
-            <a href="https://play.google.com/store/apps/dev?id=9138247524963784910">
-              Google Play Store Apps
-            </a>
-            <span className="tooltiptext">
-              Elder Design Concepts' Developer Page
             </span>
           </div>
         </li>
@@ -78,12 +84,6 @@ const Portfolio = () => (
               Convert Steps to Calories
             </a>
             <span className="tooltiptext">How fitbit steps should work..</span>
-          </div>
-        </li>
-        <li className="portfolioListItem">
-          <div className="tooltip">
-            <Link to="/fitbit">Fitbit Clockfaces</Link>
-            <span className="tooltiptext">Various Fitbit clockfaces.</span>
           </div>
         </li>
       </ul>

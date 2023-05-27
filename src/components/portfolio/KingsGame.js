@@ -17,7 +17,10 @@ const KingsGame = () => (
     </h3>
 
     <p className="quicksand-text blurb">
-      Check out my android app once it goes live!
+      Check out the{" "}
+      <a href="https://play.google.com/store/apps/details?id=com.elderdesignconcepts.kingsdrinkinggame">
+        Android app
+      </a>
       <br />
       <ul>
         <li>

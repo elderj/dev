@@ -13,25 +13,24 @@ const Home = () => (
     <NavBar />
     <h3 className="quicksand-text blurb">
       <br />
-      Professional development with a touch of fun!
+      Welcome to our professional development hub, where expertise meets
+      innovation!
       <br />
       <br />
     </h3>
 
     <p className="quicksand-text blurb">
-      There is nothing cooler than building something awesome, whether digitally
-      or in the real world <i>(or both!)</i>
+      Explore our <Link to="/portfolio">showcase</Link> of remarkable projects
+      that exemplify our commitment to excellence and ingenuity.
       <br />
       <br />
-      Read a little more <Link to="/about">about E.D.C.</Link> or check out the{" "}
-      <Link to="/portfolio">portfolio</Link> to see some of our projects.
+      If you're interested in our unique Fitbit clockfaces, Android apps, or web
+      applications, and would like to discuss your digital needs or collaborate
+      with us, we invite you to contact us via email.
       <br />
       <br />
-      If you're interested in having a custom website or app made, need some
-      technical help, or have questions, send an{" "}
-      <Link to="/contact">email</Link> so we can work on building something
-      awesome together.
-      <br />
+      Let's embark on an exciting journey together and bring your vision to life
+      in the most remarkable way possible.
     </p>
     <br />
     <br />
