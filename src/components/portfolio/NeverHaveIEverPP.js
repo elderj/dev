@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/App.css";
 import "../../styles/font.css";
 
@@ -6,12 +7,12 @@ import Header from "../Header";
 import NavBar from "../NavBar";
 import Footer from "../Footer";
 
-const KingsGamePP = () => (
+const NeverHaveIEverPP = () => (
   <div className="floating-content">
     <Header />
     <NavBar />
     <h3 className="quicksand-text blurb">
-      Privacy Policy for Kings Drinking Game
+      Privacy Policy for Never Have I Ever
       <br />
     </h3>
     <p className="quicksand-text blurb">
@@ -122,4 +123,4 @@ const KingsGamePP = () => (
   </div>
 );
 
-export default KingsGamePP;
+export default NeverHaveIEverPP;

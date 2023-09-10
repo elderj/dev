@@ -48,6 +48,21 @@ const Portfolio = () => (
         </li>
         <li className="portfolioListItem">
           <div className="tooltip">
+            <Link to="/portfolio/would-you-rather">Would You Rather?</Link>
+            <span className="tooltiptext">
+              "The 'Would You Rather' scenario game offers challenging choices
+              and fun discussions for users"
+            </span>
+          </div>
+        </li>
+        {/* <li className="portfolioListItem">
+          <div className="tooltip">
+            <Link to="/portfolio/never-have-i-ever">Never Have I Ever</Link>
+            <span className="tooltiptext">"Never Have I Ever Description</span>
+          </div>
+        </li> */}
+        <li className="portfolioListItem">
+          <div className="tooltip">
             <Link to="/portfolio/random-name-generator">
               Random Name Generator App
             </Link>
