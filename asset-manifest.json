@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.53480cc4.chunk.css",
-    "main.js": "/static/js/main.2a14c434.chunk.js",
-    "main.js.map": "/static/js/main.2a14c434.chunk.js.map",
+    "main.js": "/static/js/main.2a4a0419.chunk.js",
+    "main.js.map": "/static/js/main.2a4a0419.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.4da486a9.chunk.js": "/static/js/2.4da486a9.chunk.js",
     "static/js/2.4da486a9.chunk.js.map": "/static/js/2.4da486a9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bd83427e80b926f28138d0b2d5d777be.js": "/precache-manifest.bd83427e80b926f28138d0b2d5d777be.js",
+    "precache-manifest.b0e6011e28f70e32528826273f193b8f.js": "/precache-manifest.b0e6011e28f70e32528826273f193b8f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.53480cc4.chunk.css.map": "/static/css/main.53480cc4.chunk.css.map",
     "static/media/App.css": "/static/media/dark_triangles.abef252c.png",
