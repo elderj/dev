@@ -17,10 +17,10 @@ const WouldYouRather = () => (
     </h3>
 
     <p className="quicksand-text blurb">
-      Check out the Android App when it goes live!
-      {/* <a href="https://play.google.com/store/apps/details?id=com.elderdesignconcepts.kingsdrinkinggame">
+      Check out the{" "}
+      <a href="https://play.google.com/store/apps/details?id=com.elderdesignconcepts.wouldyourather">
         Android app
-      </a> */}
+      </a>
       <br />
       <ul>
         <li>
