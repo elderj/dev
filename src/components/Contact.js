@@ -26,7 +26,7 @@ const Contact = () => (
       Follow me on Instagram{" "}
       <a href="https://www.instagram.com/elderdesignconcepts/">
         @ElderDesignConcepts
-      </a>{" "}
+      </a>
       to check out some more designs and interests.
     </p>
 

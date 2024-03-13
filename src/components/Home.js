@@ -20,19 +20,17 @@ const Home = () => (
     </h3>
 
     <p className="quicksand-text blurb">
-      Explore our <Link to="/portfolio">showcase</Link> of remarkable projects
-      that exemplify our commitment to excellence and ingenuity.
+      Explore our <Link to="/portfolio">showcase</Link> of interesting projects.
       <br />
       <br />
       If you're interested in our unique Fitbit clockfaces, Android apps, or web
-      applications, and would like to discuss your digital needs or collaborate
-      with us, we invite you to contact us via email.
+      applications, and have questions or need a custom website or application
+      built send us an email and let's get started!
       <br />
+      <h5>ElderDesignConcepts@gmail.com</h5>
       <br />
-      Let's embark on an exciting journey together and bring your vision to life
-      in the most remarkable way possible.
     </p>
-    <br />
+    <h2 className="pacifico-text blurb">Let's Make Something Cool Together!</h2>
     <br />
     <Footer />
     <br />

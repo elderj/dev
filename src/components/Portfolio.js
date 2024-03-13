@@ -13,7 +13,7 @@ const Portfolio = () => (
   <div className="floating-content">
     <Header />
     <NavBar />
-    <h4 className="quicksand-text">Check out some of existing web projects</h4>
+    <h4 className="quicksand-text">Check out some of our projects</h4>
     <div className="niceLookingList">
       <ul>
         <li className="portfolioListItem">
@@ -55,6 +55,13 @@ const Portfolio = () => (
             </span>
           </div>
         </li>
+        <li className="portfolioListItem">
+          <div className="tooltip">
+            <a href="https://robertsstumpgrinding.com">
+              Roberts Stumpgrinding & Tree Service
+            </a>
+          </div>
+        </li>
         {/* <li className="portfolioListItem">
           <div className="tooltip">
             <Link to="/portfolio/never-have-i-ever">Never Have I Ever</Link>
@@ -72,7 +79,9 @@ const Portfolio = () => (
             </span>
           </div>
         </li>
-        <li className="portfolioListItem">
+
+        {/* These need a little bit more polishing */}
+        {/* <li className="portfolioListItem">
           <div className="tooltip">
             <a href="https://elderj.github.io/PalmettoDominion/">
               Palmetto Dominion Hot Sauce
@@ -82,8 +91,8 @@ const Portfolio = () => (
               types of peppers.
             </span>
           </div>
-        </li>
-        <li className="portfolioListItem">
+        </li> */}
+        {/* <li className="portfolioListItem">
           <div className="tooltip">
             <a href="http://elderj.6te.net/Examples/Basic/">
               Responsive Website Template
@@ -92,15 +101,15 @@ const Portfolio = () => (
               A simple example of a responsive website.
             </span>
           </div>
-        </li>
-        <li className="portfolioListItem">
+        </li> */}
+        {/* <li className="portfolioListItem">
           <div className="tooltip">
             <a href="http://elderj.6te.net/Examples/StepsToCalorieConversion/index.html">
               Convert Steps to Calories
             </a>
             <span className="tooltiptext">How fitbit steps should work..</span>
           </div>
-        </li>
+        </li> */}
       </ul>
     </div>
 
