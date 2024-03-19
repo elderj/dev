@@ -15,9 +15,9 @@ const Fitbit = () => (
   <div className="floating-content">
     <Header />
     <NavBar />
-
+    <br />
+    <h4 className="quicksand-text">Fitbit Clock Faces</h4>
     <p className="quicksand-text blurb">
-      <h4>Fitbit Clock Faces</h4>
       You can view individual clockfaces below that catch your interest or can
       checkout my{" "}
       <a href="https://gallery.fitbit.com/developer/83781fbc-98a0-4eb7-9a7e-50dfbfcddb0e">

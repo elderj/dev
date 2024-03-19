@@ -10,8 +10,9 @@ const Contact = () => (
   <div className="floating-content">
     <Header />
     <NavBar />
+    <br />
+    <h4 className="quicksand-text">Have some questions?</h4>
     <p className="quicksand-text blurb">
-      <h4>Have some questions?</h4>
       <br />
       <a
         href="mailto:elderdesignconcepts@gmail.com?Subject=Elder Design Concepts:Contact"

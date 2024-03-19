@@ -12,6 +12,7 @@ const About = () => (
   <div className="floating-content">
     <Header />
     <NavBar />
+    <br />
     <h4 className="quicksand-text">A little more about E.D.C.</h4>
     <p className="quicksand-text blurb">
       We are passionate about making really cool things, both digitally and in

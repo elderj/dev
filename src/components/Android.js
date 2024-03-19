@@ -14,8 +14,8 @@ const Android = () => (
     <Header />
     <NavBar />
     <br />
+    <h4 className="quicksand-text">Check out our Android apps</h4>
     <p className="quicksand-text blurb">
-      <h4>Google Play Store Apps</h4>
       You can view our individual apps below that catch your interest or can
       checkout our Google Play Store{" "}
       <a href="https://gallery.fitbit.com/developer/83781fbc-98a0-4eb7-9a7e-50dfbfcddb0e">
