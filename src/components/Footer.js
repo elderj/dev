@@ -3,7 +3,7 @@ import "../styles/App.css";
 import "../styles/font.css";
 
 import instagramLogo from "../images/linkLogoImages/instagram-logo.png";
-import twitterLogo from "../images/linkLogoImages/twit.png";
+// import twitterLogo from "../images/linkLogoImages/twit.png";
 
 const currentYear = new Date().getFullYear();
 

@@ -1,7 +1,8 @@
 import React from "react";
 import Home from "./Home";
 import About from "./About";
-import Portfolio from "./Portfolio";
+import WebProjects from "./WebProjects";
+import Android from "./Android";
 import Fitbit from "./Fitbit";
 import Contact from "./Contact";
 import Questions from "./Questions";
@@ -32,8 +33,10 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={Home} />
-        {/* Portfolio Items */}
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/web-projects" component={WebProjects} />
+        {/* Android Items */}
+        <Route exact path="/portfolio" component={Android} />
         {/* Kings */}
         <Route exact path="/portfolio/kings-card-game" component={KingsGame} />
         <Route
@@ -112,7 +115,6 @@ function App() {
           path="/portfolio/triangle-skill-game/privacy"
           component={TriangleSkillGamePP}
         />
-        <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/fitbit" component={Fitbit} />
         <Route exact path="/questions" component={Questions} />
