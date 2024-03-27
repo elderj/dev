@@ -13,15 +13,12 @@ const Home = () => (
     <NavBar />
     <h3 className="quicksand-text blurb">
       <br />
-      Welcome to our professional development hub, where expertise meets
-      innovation!
+      Welcome!
       <br />
       <br />
     </h3>
 
     <p className="quicksand-text blurb">
-      Explore our <Link to="/portfolio">showcase</Link> of interesting projects.
-      <br />
       <br />
       If you're interested in our unique Fitbit clockfaces, Android apps, or web
       applications, and have questions or need a custom website or application

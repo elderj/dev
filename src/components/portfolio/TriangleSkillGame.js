@@ -21,9 +21,9 @@ const TriangleSkillGame = () => (
       <a href="https://play.google.com/store/apps/details?id=com.elderdesignconcepts.triangleskillgame">
         Android app
       </a>
-      <br />
+      {/* <br />
       Or the{" "}
-      <a href="https://elderj.github.io/TriangleSkillGame">Web version</a>
+      <a href="https://elderj.github.io/TriangleSkillGame">Web version</a> */}
       <ul>
         <li>
           <Link to="/portfolio/triangle-skill-game/terms">

@@ -18,7 +18,7 @@ const Android = () => (
     <p className="quicksand-text blurb">
       You can view our individual apps below that catch your interest or can
       checkout our Google Play Store{" "}
-      <a href="https://gallery.fitbit.com/developer/83781fbc-98a0-4eb7-9a7e-50dfbfcddb0e">
+      <a href="https://play.google.com/store/apps/dev?id=9138247524963784910">
         Google Play Store
       </a>{" "}
       Developer Page.
