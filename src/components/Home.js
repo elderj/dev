@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/App.css";
 import "../styles/font.css";
 
-import { Link } from "react-router-dom";
 import Header from "./Header";
 import NavBar from "./NavBar";
 import Footer from "./Footer";

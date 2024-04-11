@@ -7,9 +7,17 @@ import Fitbit from "./Fitbit";
 import Contact from "./Contact";
 import Questions from "./Questions";
 
+import TriangleSkillGame from "./portfolio/TriangleSkillGame";
+import TriangleSkillGameTOS from "./portfolio/TriangleSkillGameTOS";
+import TriangleSkillGamePP from "./portfolio/TriangleSkillGamePP";
+
 import KingsGame from "./portfolio/KingsGame";
 import KingsGameTOS from "./portfolio/KingsGameTOS";
 import KingsGamePP from "./portfolio/KingsGamePP";
+
+import DotsAndBoxes from "./portfolio/DotsAndBoxes";
+import DotsAndBoxesTOS from "./portfolio/DotsAndBoxesTOS";
+import DotsAndBoxesPP from "./portfolio/DotsAndBoxesPP";
 
 import WouldYouRatherTOS from "./portfolio/WouldYouRatherTOS";
 import WouldYouRatherPP from "./portfolio/WouldYouRatherPP";
@@ -18,9 +26,6 @@ import NeverHaveIEver from "./portfolio/NeverHaveIEver";
 import NeverHaveIEverTOS from "./portfolio/NeverHaveIEverTOS";
 import NeverHaveIEverPP from "./portfolio/NeverHaveIEverPP";
 
-import TriangleSkillGame from "./portfolio/TriangleSkillGame";
-import TriangleSkillGameTOS from "./portfolio/TriangleSkillGameTOS";
-import TriangleSkillGamePP from "./portfolio/TriangleSkillGamePP";
 import RandomNameGenerator from "./portfolio/RandomNameGenerator";
 import RandomNameGeneratorTOS from "./portfolio/RandomNameGeneratorTOS";
 import RandomNameGeneratorPP from "./portfolio/RandomNameGeneratorPP";
@@ -37,6 +42,22 @@ function App() {
         <Route exact path="/web-projects" component={WebProjects} />
         {/* Android Items */}
         <Route exact path="/portfolio" component={Android} />
+
+        <Route
+          exact
+          path="/portfolio/triangle-skill-game"
+          component={TriangleSkillGame}
+        />
+        <Route
+          exact
+          path="/portfolio/triangle-skill-game/terms"
+          component={TriangleSkillGameTOS}
+        />
+        <Route
+          exact
+          path="/portfolio/triangle-skill-game/privacy"
+          component={TriangleSkillGamePP}
+        />
         {/* Kings */}
         <Route exact path="/portfolio/kings-card-game" component={KingsGame} />
         <Route
@@ -48,6 +69,23 @@ function App() {
           exact
           path="/portfolio/kings-card-game/privacy"
           component={KingsGamePP}
+        />
+
+        {/* Dots and Boxes */}
+        <Route
+          exact
+          path="/portfolio/dots-and-boxes"
+          component={DotsAndBoxes}
+        />
+        <Route
+          exact
+          path="/portfolio/dots-and-boxes/terms"
+          component={DotsAndBoxesTOS}
+        />
+        <Route
+          exact
+          path="/portfolio/dots-and-boxes/privacy"
+          component={DotsAndBoxesPP}
         />
 
         {/* Would You Rather */}
@@ -99,21 +137,6 @@ function App() {
           exact
           path="/portfolio/random-name-generator/privacy"
           component={RandomNameGeneratorPP}
-        />
-        <Route
-          exact
-          path="/portfolio/triangle-skill-game"
-          component={TriangleSkillGame}
-        />
-        <Route
-          exact
-          path="/portfolio/triangle-skill-game/terms"
-          component={TriangleSkillGameTOS}
-        />
-        <Route
-          exact
-          path="/portfolio/triangle-skill-game/privacy"
-          component={TriangleSkillGamePP}
         />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/fitbit" component={Fitbit} />

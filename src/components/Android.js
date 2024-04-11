@@ -36,16 +36,16 @@ const Android = () => (
         <li className="portfolioListItem">
           <div className="tooltip">
             <Link to="/portfolio/kings-card-game">Kings Drinking Game</Link>
-            <span className="tooltiptext">The classic drinking game</span>
+          </div>
+        </li>
+        <li className="portfolioListItem">
+          <div className="tooltip">
+            <Link to="/portfolio/dots-and-boxes">Dots and Boxes</Link>
           </div>
         </li>
         <li className="portfolioListItem">
           <div className="tooltip">
             <Link to="/portfolio/would-you-rather">Would You Rather?</Link>
-            <span className="tooltiptext">
-              "The 'Would You Rather' scenario game offers challenging choices
-              and fun discussions for users"
-            </span>
           </div>
         </li>
 
